@@ -1,0 +1,59 @@
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('museum.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.start-booking-button {
+  background-color: #8B4513; /* Antique brown color */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+.start-booking-button:hover {
+  background-color: #5A3A1B; /* Darker shade of antique brown */
+}
+/* Add this to existing styles */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-content {
+    animation: fadeIn 1s ease-out;
+  }
+  

@@ -1,0 +1,20 @@
+/* src/components/ScrollingImages.css */
+
+.scrolling-images {
+  width: 30%; /* Takes up 20% of the window width */
+  height: 100vh; /* Full height of the viewport */
+  overflow-y: auto; /* Allows vertical scrolling */
+  position: fixed; /* Fixes the position on the left side */
+  left: 0;
+  top: 0;
+  background-color: #f4f4f4; /* Background color for the scrolling area */
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.scrolling-image {
+  width: 100%; /* Image takes up full width */
+  margin-bottom: 20px; /* Space between images */
+  border-radius: 8px; /* Rounded corners for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to images */
+}

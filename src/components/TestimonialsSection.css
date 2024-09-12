@@ -1,0 +1,20 @@
+.testimonials-section {
+  padding: 60px 20px;
+  background-color: #e8e2d6;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
